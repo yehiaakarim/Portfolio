@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/portfolio.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes">
+    <title>يحيي عبدالكريم</title>
+    <link rel="stylesheet" href="stylesar.css">
+</head>
+
+<body>
+    <div style="display:none" class="mySidebar">
+        <button onclick="side_close()">&times; اغلق</button>
+        <div><a onclick="dark()" title="حول من الوضع الفاتح الي الوضع الداكن والعكس">
+                داكن || فاتح
+            </a>
+        </div>
+        <div><a href="../index.html">
+                English
+            </a></div>
+        <div><a href="../assets/docs/Yehia Abdelkarim Front-End.pdf" download>سيرتي الذاتية</a> </div>
+    </div>
+
+    <div class="opacityHalf">
+        <div class="gridone">
+            <img src="../assets/images/list.png" alt="list" class="firstBtn" onclick="side_open()">
+            <div class="timeSpent">
+                <p id="timer">00,00,00</p>
+                <button onclick="resetTimer()">اعد تشغيل العداد</button>
+            </div>
+            <div><a href="../assets/docs/Yehia Abdelkarim Front-End.pdf" download>سيرتي الذاتية</a> </div>
+            <div></div>
+            <div><a onclick="dark()" title="حول من الوضع الفاتح الي الوضع الداكن والعكس">
+                    داكن || فاتح
+                </a>
+            </div>
+            <div><a href="../index.html">
+                    English
+                </a></div>
+        </div>
+
+        <section>
+            <div><img class="welcome" src="../assets/images/welcome.jpg" alt="Welcome To My Portfolio" />
+            </div>
+            <div class="personal">
+                <div>
+                    <p dir="rtl">
+                        " اسمي يحيي عبدالكريم. انا من <strong>القاهرة, مصر</strong>. تخرجت من كلية الهندسة جامعة عين
+                        شمس.
+                        أتطلّع لتوظيف مهاراتي القوية في حل المشكلات واهتمامي بالتفاصيل في تصميم واجهات مستخدم تفاعلية
+                        وجذابة وسريعة الاستجابة.
+                        انتهيت من دراسة الجزء الخاص بتطوير الواجهة الأمامية للويب من خلال احد الكورسات علي موقع
+                        <strong>(يوديمي) </strong>يمكنك الأطلاع علي هذا الكورس من خلال هذا <a
+                            href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?srsltid=AfmBOorDWyrbvcy_cewWw_c_Yof5VVZ8O6-40sIbFyVgxPy1_LG9uBiD"
+                            target="_blank"><strong>الرابط</strong></a>
+                        واقوم بدراسات من خلال المواقع التالية :-
+                        <br />W3Schools.com, Developer.Mozilla.org and StackOverflow.com<br /> وابحث حاليا عن فرصة عمل
+                        كمطور للواجهة الأمامية للويب. "
+                </div>
+                <img src="../assets/images/My Image.jpg">
+            </div>
+        </section>
+        <section>
+            <div class="border"></div>
+            <div class="slideshow-container">
+                <h2 dir="rtl">يمكنك زيارة صفحتي علي جيت هاب من <a href="https://github.com/yehiaakarim?tab=repositories"
+                        target="_blank"><button class="buttonOne">هنا👋</button></a> ويمكنك الضغط علي اي صورة من معرض
+                    الصور التالي لزيارة احد مواقعي.
+                </h2>
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/E-commerce/" target="_blank"><img
+                            src="../assets/images/eCommerce.jpg" alt="E-commerce" class="slider1"></a>
+                    <div class="text num">.متجر ألكتروني بأستخدام <strong>رياكت</strong></div>
+                </div>
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/youtubeClone/" target="_blank"><img
+                            src="../assets/images/youtube.jpg" alt="Yotube clone" class="slider1"></a>
+                    <div class="text num">.مشغل فيديوهات مثل يوتيوب بأستخدام <strong>رياكت</strong></div>
+                </div>
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/React-form/" target="_blank"><img
+                            src="../assets/images/Form.jpg" alt="Application Form" class="slider1"></a>
+                    <div class="text num">.فورم تقديم للوظائف بأستخدام <strong>رياكت</strong></div>
+                </div>
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/React-Keeper/" target="_blank"><img
+                            src="../assets/images/Keep.jpg" alt="Keeper App" class="slider1"></a>
+                    <div class="text num">.حفظ الملاحظات بأستخدام <strong>رياكت</strong></div>
+                </div>
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/Play-Simon/" target="_blank"><img
+                            src="../assets/images/Simongame.jpg" alt="Simon Game" class="slider1"></a>
+                    <div class="text num">.لعبة سيمون بأستخدام جافا سكريبت</div>
+                </div>
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/Drums/" target="_blank"><img src="../assets/images/Kit.jpg"
+                            alt="Drum Kit" class="slider1"></a>
+                    <div class="text num">.درامز بأستخدام جافا سكريبت</div>
+                </div>
+
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/Play-Dice/" target="_blank"><img
+                            src="../assets/images/Adice.jpg" alt="Dice Game" class="slider1"></a>
+                    <div class="text num">.لعبة زهر بأستخدام جافا سكريبت</div>
+                </div>
+
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/React-toDoList/" target="_blank"><img
+                            src="../assets/images/Dolist.jpg" alt="to-do-list" class="slider1"></a>
+                    <div class="text num">.قائمة مهام بأستخدام <strong>رياكت</strong> </div>
+                </div>
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/React-time/" target="_blank"><img
+                            src="../assets/images/Timing.jpg" alt="world time clock" class="slider1"></a>
+                    <div class="text num">.التوقيت العالمي بأستخدام <strong>رياكت</strong></div>
+                </div>
+                <div class="mySlides">
+                    <a href="https://yehiaakarim.github.io/React-Emojis/" target="_blank"><img
+                            src="../assets/images/Emoji.jpg" alt="emojis" class="slider1"></a>
+                    <div class="text num">.قاموس للأيموجي بأستخدام <strong>رياكت</strong></div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(-1)">&#10095;</a>
+            </div>
+            <br>
+            <div id="dots" dir="rtl">
+                <span class="dot" onclick="currentSlide(1)">&#x0661;</span>
+                <span class="dot" onclick="currentSlide(2)">&#x0662;</span>
+                <span class="dot" onclick="currentSlide(3)">&#x0663;</span>
+                <span class="dot" onclick="currentSlide(4)">&#x0664;</span>
+                <span class="dot" onclick="currentSlide(5)">&#x0665;</span>
+                <span class="dot" onclick="currentSlide(6)">&#x0666;</span>
+                <span class="dot" onclick="currentSlide(7)">&#x0667;</span>
+                <span class="dot" onclick="currentSlide(8)">&#x0668;</span>
+                <span class="dot" onclick="currentSlide(9)">&#x0669;</span>
+                <span class="dot" onclick="currentSlide(10)">&#x0661&#x0660;</span>
+            </div>
+        </section>
+
+        <Section>
+            <a href="https://mail.google.com/mail/u/0/#search/yehiaabdelkarimsoliman%40gmail.com?compose=new"
+                target="_blank"><button class="btn">
+                    <img src="../assets/images/Gmail.png" />
+                    <p><strong>راسلني علي</strong></p>
+                </button></a>
+            <div class="border"></div>
+        </Section>
+
+        <section>
+            <h3 dir="rtl">معرفتي في تطوير الواجهة الأمامية للويب :-</h3>
+            <div id="gridfive">
+                <div class="tri" id="one">
+                </div>
+                <div class="tri" id="two">
+                </div>
+                <div class="tri" id="three">
+                </div>
+                <div class="tri" id="four">
+                </div>
+                <div class="tri" id="five">
+                </div>
+                <div class="tri" id="six">
+                </div>
+                <div class="tri" id="seven">
+                </div>
+                <div class="tri" id="eight">
+                </div>
+                <div class="tri" id="nine">
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="last">
+                <p class="underLine">تواصَل معي</p>
+                <div class="gridLast">
+                    <div class="mobile">
+                        <div class="Number"><img src="../assets/images/phone.png" alt="Phone" class="logo">
+                            <h4>موبيل</h4>
+                        </div>
+                        <ul>
+                            <li> <a
+                                    href="tel: 01270006230">&#x0660;&#x0661;&#x0662;&#x0667;&#x0660;&#x0660;&#x0660;&#x0666;&#x0662;&#x0663;&#x0660;</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mobile">
+                        <div class="Number"><img src="../assets/images/LinkedIn.png" alt="Linkedin" class="logo">
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/yehia-abdelkarim-29722b33a/" target="_blank">لينكد
+                                    إن</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mobile">
+                        <div class="Number"><img src="../assets/images/Whatsapp.png" alt="Whatsapp" class="logo">
+                            <h4>واتساب</h4>
+                        </div>
+                        <ul>
+                            <li><a href="https://wa.link/9afcky"
+                                    target="_blank">&#x0660;&#x0661;&#x0662;&#x0667;&#x0660;&#x0660;&#x0660;&#x0666;&#x0662;&#x0663;&#x0660;</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile">
+                        <div class="Number"><img src="../assets/images/messenger.png" alt="Messenger" class="logo">
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="https://m.me/yehiakarimsoliman" target="_blank">ماسنجر</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="./indexar.js"></script>
+</body>
+
+</html>
